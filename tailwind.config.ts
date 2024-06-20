@@ -15,6 +15,7 @@ const config: Config = {
       },
     },
   },
+  safelist: [...[1, 2, 3, 4, 5, 6].map((n) => `grid-cols-${n}`)],
   plugins: [],
 };
 export default config;
